@@ -1,0 +1,8 @@
+<h1>Sign Up for More Updates!</h1>
+<%= form_for(@signup) do |f| %>
+    <%= f.label "First name: " %>
+    <%= f.text_area :firstname %>
+    <%= f.label "Email: " %>
+    <%= f.text_area :email %>
+    <%= f.submit "Sign Me Up!" %>
+<% end %>
